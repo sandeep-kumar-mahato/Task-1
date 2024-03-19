@@ -38,7 +38,7 @@ function ProductList() {
         {products.map((product) => (
           <div
             key={product.id}
-            className="bg-slate-200 rounded-lg shadow-md p-4 hover:bg-white transform transition duration-300 ease-in-out hover:scale-105 text-justify"
+            className="bg-slate-200 rounded-lg shadow-md p-4 hover:bg-gray-200 transform transition duration-300 ease-in-out hover:scale-105 text-justify"
           >
             <h2 className="text-xl font-bold mb-2">{product.title}</h2>
             <p>
